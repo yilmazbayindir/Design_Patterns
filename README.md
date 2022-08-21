@@ -1,1 +1,5 @@
 # Design_Patterns
+
+Design patterns make it easier to reuse successful designs and architectures. Expressing proven techniques as design patterns makes them more accessible to developers of new systems. Design patterns help you choose design alternatives that make a system reusable and avoid alternatives that compromise reusability. Design patterns can even improve the documentation and maintenance of existing systems by furnishing an explicit specification of class and object interactions and their underlying intent. In brief, each pattern describes a problem which occurs over and over again in our environment, and then describes the core of the solution to that problem.
+
+In this repository, proven techniques as design patterns are expressed with their descriptions and code examples by using several programming languages such as C++, Python, Java.
