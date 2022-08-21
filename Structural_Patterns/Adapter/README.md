@@ -1,5 +1,5 @@
 ## When and why should the Adapter Pattern be used?
 
-- You want to use an existing class, and its interface does not match the one you need any more.
-- You want to create a reusable class that cooperates with classes that don't necessarily have compatible interfaces.
-- You need to use several existing subclasses, however it is not practical or efficient solution to adapt their interface by subclassing every one. Only an object adapter can adapt the interface of its parent class(i.e the interface of Target class)
+- Use this pattern when you want to use some existing class, however its interface is not compatible with your current code.
+- Use this pattern when you want to have a special class which has a relationship with your current classes that do not share the same interface with target class any more. 
+- Use this pattern when you need to use several existing subclasses, however it is not practical or efficient solution to adapt their interface by subclassing every one. Only an object adapter can match the interface of its parent class(i.e the interface of Target class)
