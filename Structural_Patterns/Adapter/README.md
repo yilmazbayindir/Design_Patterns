@@ -1,7 +1,7 @@
 # Adapter
 
 ## Intent:
-- Adapter is a structural design pattern that transforms the interface of an existing class into the one clients know.
+Adapter is a structural design pattern that transforms the interface of an existing class into the one clients know. This pattern can be applied to both classes and objects. 
 
 ## When/Why should "the Adapter Pattern" be used?
 - Use this pattern when you want to use some existing class, however its interface is not compatible with your current code.
