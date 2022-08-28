@@ -1,7 +1,8 @@
 # Bridge
 
 ## Intent:
-Bridge is a structural design pattern that lets you decouple an abstraction from its implementation. In this way, they can be developed independently of each other. This pattern can be applied to objects only.
+- Bridge is a structural design pattern that lets you decouple an abstraction from its implementation. In this way, they can be developed independently of each other.
+- This pattern can be applied to objects only.
 
 ## When should "the Bridge Pattern" be used?
 - Use this pattern when you need to hide implementation details of an abstraction from clients.
