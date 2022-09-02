@@ -1,4 +1,4 @@
-//This is an example of "virtual proxy". 
+//This is an example of "virtual proxy".
 //As you know, a virtual proxy creates expensive objects on demand.
 
 #include <iostream>
@@ -39,6 +39,16 @@ public:
 		delete m_RealSubject;
 	}
 
+	void Request() override
+	{
+		cout << "Proxy::Request()" << endl;
+
+		this->GetRealSubject()->Request();
+	}
+
+private:
+	RealSubject *m_RealSubject{nullptr};
+
 	RealSubject *GetRealSubject()
 	{
 		if(m_RealSubject == nullptr)
@@ -47,16 +57,6 @@ public:
 		}
 		return m_RealSubject;
 	}
-
-	void Request() override
-	{
-		cout << "Proxy::Request()" << endl;
-
-		GetRealSubject()->Request();
-	}
-
-private:
-	RealSubject *m_RealSubject{nullptr};
 };
 
 void ClientCode(Subject *p_Subject)
